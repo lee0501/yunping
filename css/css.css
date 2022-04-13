@@ -1,0 +1,837 @@
+/*大背景*/
+body{
+    background-color: #f0e4d4;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+    
+}
+
+/*第---------------一--------------------部---------------------分---------------------開-----------------------始*/
+/*綠色框*/
+.main{
+    margin: auto;
+    border-radius: 10px;
+    height: 100%;
+    width: 1000px;
+    background-color: rgb(195, 206, 172);
+}
+.fixed{
+    width:1000px;
+    margin:auto;
+}
+.fixed1{
+    position:fixed;
+    z-index: -1;
+}
+.click1{
+    -webkit-writing-mode:vertical-lr;
+    writing-mode: vertical-lr;
+    height: 100px;
+    width: 35px;
+    border-radius: 20%;
+    font-size: 20px;
+    background-color: #5c8c4c;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.7em;
+    font-family: 標楷體;
+    position:relative;
+    top:200px;
+    left:-33px;
+}
+
+.click2{
+    -webkit-writing-mode:vertical-lr;
+    writing-mode: vertical-lr;
+    height: 110px;
+    width: 35px;
+    border-radius: 20%;
+    font-size: 19px;
+    background-color: #436f9d;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.7em;
+    font-family: 標楷體;
+    position:relative;
+    top:300px;
+    left:-73px;
+}
+
+.click3{
+    -webkit-writing-mode:vertical-lr;
+    writing-mode: vertical-lr;
+    height: 100px;
+    width: 35px;
+    border-radius: 20%;
+    font-size: 20px;
+    background-color: #b7935e;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.7em;
+    font-family: 標楷體;
+    position:relative;
+    top:400px;
+    left: -113px;
+}
+
+
+/*aboutme照片隱形結界*/
+.aboutme1{
+    position: relative;
+    width: 30%;
+    padding: 20px;
+    margin: 0px;
+}
+
+/*個人資訊隱藏結界*/
+.aboutme2{
+    width: 30%;
+    position: relative;
+    padding:20px;
+    left: 30px;
+}
+
+/*座右銘跟社群圖標隱藏結界*/
+.aboutme3{
+    width: 30%;
+    position: relative;
+    padding : 20px;
+    left:20px;
+}
+
+/*我的臉*/
+.me{
+    width: 65%;
+    margin: 15px;
+    border-radius: 60%;
+    border: rgb(210, 230, 217) solid 5px;
+    position: relative;
+    left: 30px;
+}
+.me:hover{
+    transform: rotate(-360deg) scale(1.08);
+    transition: 2s;
+    width: 70%;
+    border-radius: 60%;
+}
+
+/*個人資訊內容文字*/
+.text{
+    font-size: 20px;
+    color: white;
+    position:relative;
+    
+    font-weight: bold;
+}
+.text:hover{
+    color:rgb(20, 112, 52);
+    font-size: 24px;
+}
+
+/*個人資訊框框*/
+.aboutme{
+    display: flex;
+    background-size: cover;    
+}
+
+/*社交圖標*/
+.icon{
+    width:15%;
+    position:relative;
+    left:15px;
+    top: -30px;
+    padding-right:5%;
+}
+.icon:hover{
+    transform: rotate(360deg) scale(1.08);
+    transition: 0.5s;
+    
+}
+
+/*座右銘文字*/
+.motto{
+    font-style: italic;
+    font-family: "Comic Sans MS, Comic Sans, cursive";
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5%;
+    color: white;
+}
+.motto:hover{
+    text-shadow: 5px 2px 2px rgb(123, 120, 120);
+    font-size: 22px;
+}
+/*第----------一----------部----------分----------結----------束*/
+
+/*第----------二----------部----------分----------開----------始*/
+/*第二部分背景*/
+.main2background{
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 1220px;
+    width: 1000px;
+    background-color: #8fa4b5;
+   
+}
+
+/*第二部分*/
+.main2{
+    display: flex;
+    background-size: cover;
+}
+
+/*第二部分右側 start */
+.main2_left{
+    width: 50%;
+    height: 100%;
+}
+
+/*標題*/
+.title{
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 5px 5px 3px rgb(197, 190, 190);
+    position: relative;
+    top: 10px;
+}
+.title:hover{
+    font-size: 24px;
+}
+
+/*教育*/
+/*教育程度*/
+.education{
+    position: relative;
+    top: 2px;
+    
+}
+/*教育背景框*/
+.edubox{
+    border-radius: 10px;
+    height: 190px;
+    width: 400px;
+    position: relative;
+    top: 2px;
+    left: 20px;
+    background-color: #b0bcf6;
+    box-shadow: 4px 4px 4px #90a1f5;
+}
+
+/*學校文字*/
+.school{
+    width: 350px;
+    font-size:18px;
+    color: black;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+
+/*技能*/
+/*個人技能*/
+.profession{
+    position: relative;
+    top: 15px;
+}
+
+/*85%*/
+.premiere_pic{
+    width: 26%;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+/*80%*/
+.photoshop_pic{
+    width: 26%;
+    position:relative;
+    top: 10px;
+    left: 85px;
+}
+
+/*照片文字第一行*/
+.protext_line1{
+    position: relative;
+    display: flex;
+}
+
+/*pr文字*/
+.pr_text{
+    font-size:  20px;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    font-weight: bold;
+}
+
+/*ps文字*/
+.ps_text{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 160px;
+    font-weight: bold;
+}
+
+/*75%*/
+.aftereffect_pic{
+    width: 26%;
+    position:relative;
+    top: 50px;
+    left:50px;
+}
+
+/*50%*/
+.finalcutpro_pic{
+    width: 26%;
+    position:relative;
+    top: 50px;
+    left: 85px;
+}
+
+/*照片文字第二行*/
+.protext_line2{
+    display: flex;
+    position: relative;
+}
+
+/*ae文字*/
+.ae_text{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 70px;
+    left: 65px;
+    font-weight: bold;
+}
+
+/*fcp文字*/
+.fcp_text{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 70px;
+    left: 120px;
+    font-weight: bold;
+}
+
+/*coding skill*/
+/*coding背景框*/
+.codingbox{
+    border-radius: 10px;
+    height: 330px;
+    width: 400px;
+    margin: 30px;
+    /*position: relative;
+    top: 10px;
+    left: 20px;*/
+    background-color: #b0bcf6;
+    box-shadow: 4px 4px 4px #90a1f5;
+}
+
+/*coding*/
+.coding{
+    position: relative;
+    top: 75px;
+}
+
+/*coding 名稱*/
+.coding_text{
+    font-size: 18px;
+    color: black;
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-weight: bold;
+}
+
+/*進度條*/
+.container{
+    width: 80%;
+    background-color: black;  /*進度條底色*/
+    color: white;  /*進度條上%數顏色*/
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 35px;
+    text-align: right; /*進度條上%數靠左對齊*/  
+}
+
+/*進度條的%數條*/
+.skill{
+    background-color: rgb(98, 5, 211); /*%數條顏色*/
+    position: relative;
+    border-radius: 15px;
+}
+
+/*html進度條動畫*/
+@keyframes skillhtml{
+    from {
+      width: 0%; /*進度條動畫從0開始*/
+    }
+    to {
+      width: 70%; /*到70*/
+    }
+}
+
+/*html%數條和動畫夢幻連動*/
+#html{
+    width: 70%;
+    animation-name: skillhtml;
+    animation-duration: 5s;  /*html%樹調和動畫夢幻連動跑完的週期時長*/
+    animation-iteration-count: infinite; /*進度條動畫無限循環重複*/
+}
+
+/*css進度條動畫*/
+@keyframes skillcss{
+    from {
+        width: 0%;
+      }
+      to {
+        width: 50%;
+      }
+}
+
+/*css%數條和動畫夢幻連動*/
+#css{
+    width: 50%;
+    animation-name: skillcss;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*jsp進度條動畫*/
+@keyframes skilljsp{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+/*jsp%數條和動畫夢幻連動*/
+#jsp{
+    width: 60%;
+    animation-name: skilljsp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*mysql進度條動畫*/
+@keyframes skillmysql{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+/*mysql%數條和動畫夢幻連動*/
+#mysql{
+    width: 75%;
+    animation-name: skillmysql;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*第二部分右側 end */
+
+/*第二部分左側 start */
+
+/*第二部分左側 */
+.main2_right{
+    width: 50%;
+}
+
+/*工作經驗 */
+.work{
+    position: relative;
+    top: 2px;
+}
+/*剪輯師/片師 */
+.work_title{
+    padding-left: 40px;
+    font-size: 20px;
+    color: rgba(4, 0, 255, 0.836);
+    position: relative;
+    top: 3px;
+    font-weight: bolder;
+}
+.work_title:hover{
+    color: rgba(5, 3, 129, 0.836);;
+    text-shadow:5px 3px 3px #767472cd;
+}
+/*工作經驗文字*/
+.work_text{
+    padding-left: 60px;
+    font-size:19px;
+    color: black;
+    position: relative; 
+    top: 10px;
+    font-weight: bold;
+}
+.work_text:hover{
+    color: #0325cb;
+}
+/*小標(廣告商案/劇組) */
+.workinside_text{
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(146, 219, 255);
+    
+    position: relative;
+    top: 8px;
+}
+.workinside_text:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/*社團經驗*/
+.club{
+    position: relative;
+    top: 15px;
+}
+
+/*國中時期背景框 */
+.juniorclubbox{
+    border-radius: 10px;
+    height: 170px;
+    width: 470px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    background-color: #aed8fa;
+    box-shadow: 5px 4px 4px #82c7ff;
+    
+}
+/*桌球社圖案 */
+  
+.pingpong_pic {
+    overflow:hidden;
+    width: 170px;
+    height: 160px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    
+}
+.pingpong_pic img{
+    width: 170px;
+    height: 160px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    border-radius: 10px;
+}
+.pingpong_pic img:hover{
+    transform:scale(1.5);
+    transition: 2s ;
+}
+
+/*國中時期小標*/
+.juniortitle{
+    font-size: 18px;
+    color: rgba(4, 0, 255, 0.836);
+    position: relative;
+    top: -145px;
+    left: 197px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*桌球社內文*/
+.pingpong_text{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    top: -155px;
+    left: 197px;
+    font-weight: bold
+}
+
+/*高中時期背景框*/
+.highclubbox{
+    border-radius: 10px;
+    height: 220px;
+    width: 470px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    background-color: rgba(137, 192, 247, 0.836);
+    box-shadow: 5px 4px 4px rgba(69, 161, 252, 0.836);
+}
+/*thmc照片*/
+.thmc_pic{
+    width: 180px;
+    height: 190px;
+    overflow:hidden;
+    position: relative;
+    top: 13px;
+    left: 5px;
+}
+.thmc_pic img{
+    width: 180px;
+    height: 190px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    border-radius: 10px;
+}
+.thmc_pic img:hover{
+    transform:scale(1.2);
+    transition: 2s ;
+}
+/*高中時期小標*/
+.hightitle{
+    font-size: 18px;
+    color: #0325cb;
+    position: relative;
+    top: -160px;
+    left: 200px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+/*thmc內文*/
+.thmc_text{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    top: -170px;
+    left: 200px;
+    font-weight: bold;
+    
+}
+
+/*大學時期背景框*/
+.collegeclubbox{
+    border-radius: 10px;
+    height: 220px;
+    width: 470px;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    background-color: rgba(94, 171, 248, 0.836);
+    box-shadow: 5px 4px 4px rgba(22, 130, 239, 0.836);
+}
+/*cytc照片*/
+.cytc_pic{
+    width: 190px;
+    height: 190px;
+    overflow:hidden;
+    
+    position: relative;
+    top: 13px;
+    left: 5px;
+}
+.cytc_pic img{
+    width: 190px;
+    height: 190px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    border-radius: 10px;
+}
+.cytc_pic img:hover{
+    transform:scale(1.2);
+    transition: 2s ;
+}
+/*大學時期小標*/
+.collegetitle{
+    font-size: 18px;
+    color: rgba(6, 3, 190, 0.836);
+    position: relative;
+    top: -165px;
+    left: 210px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*cytc內文*/
+.cytc_text{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    top: -175px;
+    left: 210px;
+    font-weight: bold;
+}
+
+/*大學活動經驗*/
+.collegeactivity{
+    position: relative;
+    top: 2px;
+}
+/*年級小標(大一大二)*/
+.collegeactivity_title{
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(146, 219, 255);
+    position: relative;
+    top: -5px;
+}
+.collegeactivity_title:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+/*大學活動經驗內文*/
+.collegeactivity_text{
+    padding-left: 60px;
+    font-size:19px;
+    color: black;
+    position: relative; 
+    top: 5px;
+    font-weight: bold;
+}
+.collegeactivity_text:hover{
+    color: #0325cb;
+}
+/*第二部分左側 end */
+/*第----------一----------部----------分----------結----------束*/
+
+/*第----------三----------部----------分----------開----------始*/
+.main3background{
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 1020px;
+    width: 1000px;
+    background-color: #d8c6ba;
+}
+.main3{
+    display: flex;
+    background-size: cover;
+}
+.project{
+    position: relative;
+    top: 2px
+}
+.main3title{
+    padding-left: 430px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 5px 5px 3px rgb(197, 190, 190);
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.main3title:hover{
+    font-size: 24px;
+}
+.main3_1{
+    position: relative;
+    width: 1000px;
+    height: 255px;
+}
+
+/*大一上管理學*/
+.eachprojecttitle{
+    font-size: 20px;
+    background-color: #480a06;
+    color: #f0e4d4;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 900px;
+    height: 34px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+.eachprojecttitle:hover{
+    background-color: #f0e4d4;
+    color: #480a06;
+}
+.project1_pic{
+    width: 380px;
+    height: 240px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.project1_pic img{
+    width: 380px;
+    height: 240px;    
+    position: relative;
+    top: 15px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.project_title{
+    font-size: 20px;
+    color: rgb(245, 17, 17);
+    position: relative;
+    top: 50px;
+    left:80px;
+    font-weight: bolder;
+}
+.project_title:hover{
+    font-size: 22px;
+}
+.project_text{
+    font-size: 17px;
+    color: black;
+    position: relative;
+    top: 70px;
+    left:80px;
+    font-weight: bold;
+}
+
+.main3_2{
+    position: relative;
+    width: 1000px;
+    height: 255px;
+}
+.project2_pic{
+    width:380px;
+    height: 240px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.project2_pic img{
+    width: 380px;
+    height: 240px;    
+    position: relative;
+    top: 15px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.main3_3{
+    position: relative;
+    width: 1000px;
+    height: 255px;
+}
+.project3_pic{
+    width: 380px;
+    height: 240px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.project3_pic img{
+    width: 380px;
+    height: 240px;    
+    position: relative;
+    top: 15px;
+    left: 50px;
+    border-radius: 10px;
+}
+
